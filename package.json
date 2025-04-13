@@ -1,0 +1,23 @@
+{
+  "name": "lusha-automation-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/api-tests",
+    "ui": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@playwright/test": "^1.51.1",
+    "@types/jest": "^29.5.4",
+    "@types/node": "^22.14.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
